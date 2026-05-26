@@ -1,0 +1,27 @@
+{
+  "name": "kmeans-sanchaek",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "k-평균 산책 — 초보자를 위한 k-평균 알고리즘 인터랙티브 웹 튜토리얼 (Vanilla JS + Canvas 2D)",
+  "scripts": {
+    "dev": "node scripts/dev-server.cjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:cov": "vitest run --coverage",
+    "e2e": "node scripts/playwright-verify.cjs",
+    "a11y": "node scripts/playwright-a11y.cjs",
+    "lint:js": "biome check src tests scripts",
+    "lint:css": "stylelint \"src/**/*.css\"",
+    "format": "biome format --write src tests scripts"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.3",
+    "@biomejs/biome": "^1.9.4",
+    "@vitest/coverage-v8": "^4.1.6",
+    "playwright": "^1.60.0",
+    "stylelint": "^17.11.1",
+    "stylelint-config-standard": "^40.0.0",
+    "vitest": "^4.1.6"
+  }
+}

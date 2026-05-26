@@ -1,0 +1,15 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "files": { "include": ["src/**/*.js", "tests/**/*.js", "scripts/**/*.cjs"] },
+  "formatter": { "enabled": true, "indentStyle": "space", "indentWidth": 2, "lineWidth": 100 },
+  "javascript": { "formatter": { "quoteStyle": "single", "semicolons": "always" } },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "style": { "useBlockStatements": "off" },
+      "suspicious": { "noExplicitAny": "off" },
+      "correctness": { "noUnusedVariables": "warn" }
+    }
+  }
+}
