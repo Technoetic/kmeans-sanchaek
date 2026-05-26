@@ -5,6 +5,7 @@ playwright-report/
 test-results/
 *.log
 dist/
+!docs/
 .claude/
 step_archive/screenshots/
 step_archive/research-raw-*.txt
