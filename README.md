@@ -5,7 +5,7 @@ Vanilla JavaScript + Canvas 2D · 의존성 0 · 번들 41.8 KB.
 
 ## 라이브 데모
 
-배포 후: `https://<owner>.github.io/<repo>/`
+https://technoetic.github.io/kmeans-sanchaek/
 
 ## 학습 목표
 
